@@ -1,0 +1,8 @@
+[Interface]
+PrivateKey = KN1DYLKOTlAabdLElS+4lw3pCQv+Pa3UrVZ8Qmf2A1g=
+Address = 86.124.127.112/24
+
+[Peer]
+PublicKey = tiBmMT+JJ2D9BsRjxnfTt0o4jjiRRfL7F3uKbKwMZBc=
+AllowedIPs = 0.0.0.0/0
+Endpoint = 127.0.0.1:5500

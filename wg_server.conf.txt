@@ -1,0 +1,8 @@
+[Interface]
+PrivateKey = uOF7/zCJ4HcsX8ORhDT0jfzFjVhSCb8liB9tWikFQkk=
+ListenPort = 51820
+Address = 86.124.127.112/24
+
+[Peer]
+PublicKey = ctU/76jdpciEGIq9sIiY6dA05PkqtPTlHquyT74EkRo=
+AllowedIPs = 0.0.0.0/0
