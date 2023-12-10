@@ -8,4 +8,4 @@ logare.js -> incercarea de definire a unei functii pentru conectarea prin interm
 buttonauth0.js -> Incercarea de stabilire a unei conexiuni intre butonul "Log me with Google" si auth0
 prezentare ppt legata de cerintele indeplinite pe parcursul celor 24 de ore
 
-*serverul WireGuard a fost transferat pe masina virtuala din Google Cloud din cauza incompatibilitatii de retea (ce aparea in lucrul cu aplicatia/ linia de comanda)
+*serverul WireGuard a fost transferat pe masina virtuala din Google Cloud din cauza incompatibilitatii de retea (ce aparea in lucrul cu aplicatia/ linia de comanda) | Se gaseste si aici, sub forma de fisiere de configurare
