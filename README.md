@@ -9,3 +9,5 @@ buttonauth0.js -> Incercarea de stabilire a unei conexiuni intre butonul "Log me
 prezentare ppt legata de cerintele indeplinite pe parcursul celor 24 de ore;
 
 *serverul WireGuard a fost transferat pe masina virtuala din Google Cloud din cauza incompatibilitatii de retea (ce aparea in lucrul cu aplicatia/ linia de comanda) | Se gaseste si aici, sub forma de fisiere de configurare
+
+LINK PROIECT GOOGLE CLOUD / CLOUD STORAGE - buckets: https://console.cloud.google.com/storage/browser?_ga=2.62538028.1865443022.1702169867-329919836.1702139180&_gac=1.116646900.1702171637.CjwKCAiAvdCrBhBREiwAX6-6UvYwIYJEhW9FCg9B5YzIOzzU7Et0xvRfhRkfKBs73fWk8EyKoPCDDxoCneUQAvD_BwE&project=theta-arcana-407616&prefix=&forceOnBucketsSortingFiltering=true
