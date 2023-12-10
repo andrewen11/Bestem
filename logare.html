@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="logare.css">
+    <meta name="google-signin-client_id" content="975485566078-4s9einl09c6e8hqli3hopsllr38e78nj.apps.googleusercontent.com">
+
+</head>
+<body>
+    <h2 class="title">Login Page</h2>
+    <div class="login">
+    <div id="my-signin2"></div>
+    <script>
+        function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+  </script>
+
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+    <form id="login" method="get" >
+        <label><b>User Name
+        </b>
+        </label>
+        <input type="text" name="Uname" id="Uname" placeholder="Username">
+        <br><br>
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">
+        <br><br>
+        <input type="checkbox" id="check">
+        <span>Remember me</span>
+        <br><br>
+
+        <input type="button" name="log" id="log" value="Log In Here">
+        <br><br>
+        <input type="button" name="log" id="log" value="Log In with Google">
+        <br><br><br>
+        
+        
+      <a class="a">Forgot Password</a>
+      <a href="https://storage.googleapis.com/siteserverpa/createaccount.html">Create Account</a>
+      
+
+
+    </form>
+</div>
+</body>
+</html>
